@@ -1,0 +1,16 @@
+:root {
+  --ink: #0d1b2a;
+  --body-text: #333333;
+  --muted: #575757;
+  --blur: #e5e7eb;
+  --soft: #f8f9fb;
+  --blue: #1d4ed8;
+  --blue-light: #2563eb;
+  --purple: #7c3aed;
+  --purple-light: #9f67ea;
+  --lavender: #ede9fe;
+  --white: #ffffff;
+  --container: 1320px;
+  --radius-card: 12px;
+  --line: #e5e7eb;
+}
