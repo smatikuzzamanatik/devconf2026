@@ -1,0 +1,69 @@
+.speakers-section {
+  padding-top: 80px;
+  padding-bottom: 127px;
+  background: var(--white);
+}
+
+.speakers-section h2,
+.pricing-heading h2,
+.missing-panel h2 {
+  margin: 0;
+  color: #000102;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.speakers-section h2 {
+  text-align: center;
+  font-size: 56px;
+  line-height: 65px;
+}
+
+.speaker-grid {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+}
+
+.speaker-card {
+  min-width: 0;
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.speaker-card img {
+  width: 100%;
+  height: 324px;
+  object-fit: cover;
+}
+
+.speaker-info {
+  min-height: 134px;
+  padding: 22px 24px 24px;
+}
+
+.speaker-track {
+  display: block;
+  color: var(--blue-light);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.speaker-info h3 {
+  margin: 8px 0 0;
+  color: var(--ink);
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.speaker-info p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 21px;
+}
