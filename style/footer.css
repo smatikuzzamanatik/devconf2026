@@ -1,0 +1,39 @@
+.anchor-targets {
+  height: 0;
+  overflow: hidden;
+}
+
+.site-footer {
+  min-height: 145px;
+  padding: 56px 60px 32px;
+  color: rgba(255, 255, 255, 0.4);
+  background: var(--ink);
+}
+
+.footer-container {
+  width: min(var(--container), 100%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer-container p {
+  margin: 0;
+}
+
+.footer-container nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.site-footer a {
+  transition: color 160ms ease;
+}
+
+.site-footer a:hover {
+  color: var(--white);
+}

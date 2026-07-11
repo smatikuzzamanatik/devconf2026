@@ -1,0 +1,30 @@
+.missing-section {
+  padding: 3px 36px 208px;
+  background: var(--white);
+}
+
+.missing-panel {
+  min-height: 607px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--lavender);
+  border: 3px dashed var(--purple);
+  border-radius: 16px;
+}
+
+.missing-panel h2 {
+  color: var(--purple);
+  font-size: 63px;
+  line-height: 73px;
+}
+
+.missing-panel p {
+  margin: 16px 0 0;
+  color: var(--purple-light);
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 48px;
+}
